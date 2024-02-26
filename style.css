@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background: #FAFAF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+}
+.card-container{
+    width: 336px;
+    height: 400px;
+    padding: 16px;
+    border-radius: 15px;
+    background:  #ffffff;
+    box-shadow: 4px 7px 10px rgb(0 0 0 / 0.2);
+}
+.img-container{
+    margin-bottom: 10px;
+}
+.img-container img{
+    width: 100%;
+    height: 152px;
+    object-fit: cover;
+}
+.design-word{
+    font-weight: 600;
+    font-size: 0.625rem;
+    color: #883AE1;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 40px;
+    background-color: #E6D6FC;
+}
+.text-title{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 1.125rem;
+    color: #20293A;
+}
+.paragraph-text{
+    font-size: 0.875rem;
+    color: #6C727F;
+    margin-bottom: 20px;
+}
+.hr{
+    color: #6C727F;
+}
+.annie-sparatt{
+    font-size: 0.75rem;
+    margin-top: 20px;
+    color:  #6C727F;
+    
+}
